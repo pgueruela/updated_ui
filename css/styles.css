@@ -180,12 +180,46 @@ a.article:hover {
     CONTENT STYLE
 ----------------------------------------------------- */
 
-#content {
-    width: 100%;
-    padding: 20px;
-    min-height: 100vh;
-    transition: all 0.3s;
-    position: absolute;
-    top: 0;
-    right: 0;
+#cb-container {
+    position: fixed;
+    bottom: 0px;
+    top: 80px;
+    left: 0px;
+    background: red;
+    width: 683px;
+    height: 100%;
+}
+
+#model {
+    position: fixed;
+    bottom: 0px;
+    top: 80px;
+    right: 0px;
+    /* left: 50px; */
+    background: blue;
+    width: 683px;
+    height: 100%;
+}
+
+@media only screen and (max-width: 800px) {
+    #cb-container {
+    position: fixed;
+    bottom: 0px;
+    top: 80px;
+    left: 0px;
+    background: red;
+    width: 400px;
+    height: 100%;
+    }
+
+    #model {
+    position: fixed;
+    bottom: 0px;
+    top: 80px;
+    right: 0px;
+    /* left: 50px; */
+    background: blue;
+    width: 400px;
+    height: 100%;
+    }
 }
