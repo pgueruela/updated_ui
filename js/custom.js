@@ -1,6 +1,6 @@
  $(document).ready(function () {
     $("#sidebar").mCustomScrollbar({
-                    theme: "minimal"
+                    theme: "minimal-dark"
 });
 
 $('#dismiss, .overlay').on('click', function () {

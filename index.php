@@ -1,7 +1,7 @@
 <?php 
 require 'includes/header.php';
  ?>
-<span class="border-right"></span>
+
  <div class="wrapper">
             <!-- Sidebar Holder -->
             <nav id="sidebar">
@@ -14,8 +14,9 @@ require 'includes/header.php';
                 </div>
 
                 <ul class="list-unstyled components">
-                    <p>Folder</p>
+                    <p>Hello!</p>
                     <li class="active">
+                        <input type="file" id="file-input" />
                         <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">Home</a>
                         <ul class="collapse list-unstyled" id="homeSubmenu">
                             <li><a href="#">Home 1</a></li>
@@ -40,13 +41,23 @@ require 'includes/header.php';
                 </nav>
 
                  <!-- Control Buttons -->
-            <div id="cb-container">
-                <div class="container-fluid">
+                <div id="cb-container">
+                    <div class="container-fluid">
                     <h2>Control Buttons</h2>
                     <p></p>
+                    </div>
+                    <form>
+                        <div id="arrow-keys">
+                            <button id="b-left">left</button>
+                            <button id="b-up">up</button>
+                            <button id="b-down">down</button>
+                            <button id="b-right">right</button>
+                        </div>
+                    </form>
+                   
                 </div>
-            </div>
 
+        
             <!-- 3D Object Model -->
             <div id="model">
                 <div class="container-fluid">
@@ -67,7 +78,6 @@ require 'includes/header.php';
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <!-- jQuery Custom Scroller CDN -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
-
-       
+   
     </body>
 </html>
