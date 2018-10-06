@@ -14,9 +14,8 @@ require 'includes/header.php';
                 </div>
 
                 <ul class="list-unstyled components">
-                    <p>Hello!</p>
                     <li class="active">
-                        <input type="file" id="file-input" />
+                        <input type="file" id="file-input" onchange="return fileValidation()"//>
                         <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">Home</a>
                         <ul class="collapse list-unstyled" id="homeSubmenu">
                             <li><a href="#">Home 1</a></li>
